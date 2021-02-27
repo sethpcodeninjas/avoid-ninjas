@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="8y7f$Q(v+L|LM;|bKV1F">mySprite</variable><variable type="KIND_SpriteKind" id="K5pmFLs[1+gN!T@`s$r2">Player</variable><variable type="KIND_SpriteKind" id="sN/dXKF(+]}ji[^b1?D*">Projectile</variable><variable type="KIND_SpriteKind" id="v}.D.8d0XA}fyogwoDBj">Food</variable><variable type="KIND_SpriteKind" id="8}IsYZe*TvsKR_H8NJ3_">Enemy</variable><variable type="KIND_SpriteKind" id="3L5eL+)vL4JY:lQzd)g.">Ninja</variable></variables><block type="pxt-on-start" id="%gy3cslQgDzO?{cEdyMk" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="E8P$fYKI03Y`5]J.x=L0"><field name="VAR" id="8y7f$Q(v+L|LM;|bKV1F">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="hf/vH$mbV[XnAF~zu_@M"><value name="img"><shadow type="screen_image_picker" id="sVFQ]_h.~6KH2qsw5n[g"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="sK@QWHHD^0B!DM96bj(q"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block><block type="function_definition" id="/ae/XdN))j~pY,^Ex+^-" x="-10" y="170"><mutation name="thisIsAFunction" functionid="B7(L+E9RyYRnxh!b(.x5"/><field name="function_name">thisIsAFunction</field></block><block type="spritesoverlap" id="KR!nf`2CwCLSiVMC!dq}" x="-10" y="350"><value name="HANDLER_DRAG_PARAM_sprite"><shadow type="argument_reporter_custom" id="U814KOt%#]jhxc@d3r|5"><mutation typename="Sprite"/><field name="VALUE">sprite</field></shadow></value><value name="kind"><shadow type="spritekind" id="[@U^TkEfI1[4U$UNI23["><field name="MEMBER">Player</field></shadow></value><value name="HANDLER_DRAG_PARAM_otherSprite"><shadow type="argument_reporter_custom" id="9(|*6b*AbhISid((#]}R"><mutation typename="Sprite"/><field name="VALUE">otherSprite</field></shadow></value><value name="otherKind"><shadow type="spritekind" id="}O+@XRH*t;plc1%obL!:"><field name="MEMBER">Ninja</field></shadow></value></block></xml>
